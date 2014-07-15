@@ -85,7 +85,7 @@ a:focus {
 
 @media(min-width:767px) {
     .navbar {
-        padding: 15px 0px 0px 0px; /* 20x creates 20 pixels of space from the top */ 
+        padding: 15px 0px 0px 0px; /* 20x creates 20 pixels of space from the topdd */ 
         border-bottom: 0; /* the zero gets rid of a small border line that would appear at the bottom of the div */
         letter-spacing: 1px; /* Spacing between letters */
         background: 0 0;
