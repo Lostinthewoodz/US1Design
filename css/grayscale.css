@@ -74,6 +74,7 @@ a:focus {
 .navbar-custom a {
     color: #fff; /* Navbar Text color */
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
 
 .navbar-custom .nav li a {
@@ -98,6 +99,10 @@ a:focus {
 =======
 }
 
+=======
+}
+
+>>>>>>> parent of 55782ca... Aligned navbar.
 .navbar-custom .nav li a {
     -webkit-transition: background .3s ease-in-out;
     -moz-transition: background .3s ease-in-out;
@@ -117,6 +122,9 @@ a:focus {
     color: #fff;
 }
 
+<<<<<<< HEAD
+>>>>>>> parent of 55782ca... Aligned navbar.
+=======
 >>>>>>> parent of 55782ca... Aligned navbar.
 .navbar-toggle:focus,
 .navbar-toggle:active {
