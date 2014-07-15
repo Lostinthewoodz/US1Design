@@ -123,6 +123,10 @@ a:focus {
 .buttontext {
 }
 
+.droptext {
+    color: #000;
+}
+
 .intro {
     display: table;
     width: 100%;
