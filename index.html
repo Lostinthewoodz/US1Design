@@ -8,7 +8,7 @@
     <meta name="author" content="">
 
     <!-- Favicon added -->
-    <link rel="shortcut icon" href="img/logoalter.png"/>
+    <link rel="shortcut icon" href="../img/favicon.ico"/>
 
     <title>US1Travel</title>
 
@@ -31,64 +31,34 @@
 
 </head>
 
-<body id="page-top">
+<body id="page-top" data-spy="scroll" data-target=".navbar-custom">
 
-    <nav class="navbar navbar-home " role="navigation">
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
         <div class="container">
-            <div class="navbar-header page-scroll logotitle">
+            <div class="navbar-header page-scroll">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
                 </button>
                 <a class="navbar-brand" href="#page-top">
-                    <img src = "img/logoalter.png" alt = "US1Logo" height = "75" width = "75"> <span class="light">US1</span> Travel
+                    <i class="fa fa-anchor"></i>  <span class="light">US1</span> Travel
                 </a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
 
             <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-                <ul class="nav navbar-nav links">
-                    <li >
-                        <a href = "#" class = "dropdown-toggle" data-toggle = "dropdown"> About </a>
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li class="page-scroll">
+                        <a class = "buttontext" href="#about">About</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a class = "buttontext" href="#travel">Travel</a>
                     </li>
 
-                    <li class = "dropdown">
-                        <a href = "#" class = "dropdown-toggle" data-toggle = "dropdown"> Travel <b class = "caret"></b></a>
-                        <ul class = "dropdown-menu">
-                                <li><a href = "#">Tour Packages</a></li>
-                                <li><a href = "#">Cruise Lines</a></li>
-                                <li><a href = "#">Rail</a></li>
-                                <li><a href = "#">Car Rentals</a></li>
-                        </ul>
-                        
-                    </li>
-                    <li class = "dropdown">
-                        <a href = "#" class = "dropdown-toggle" data-toggle = "dropdown"> Resources <b class = "caret"></b></a>
-                        <ul class = "dropdown-menu">
-                                <li><a href = "#">Agents</a></li>
-                                <li><a href = "#">Travelers</a></li>
-                        </ul>
-                        
-                    </li>
-                    <li class = "dropdown">
-                        <a href = "#" class = "dropdown-toggle" data-toggle = "dropdown"> Getthere <b class = "caret"></b></a>
-                        <ul class = "dropdown-menu">
-                                <li><a href = "#">About GT</a></li>
-                                <li><a href = "#">Login</a></li>
-                        </ul>
-                    </li>
-                    <li class = "dropdown">
-                        <a href = "#" class = "dropdown-toggle" data-toggle = "dropdown"> Corporate <b class = "caret"></b></a>
-                        <ul class = "dropdown-menu">
-                                <li><a href = "#">Private Jets</a></li>
-                                <li><a href = "#">Online Booking</a></li>
-                        </ul>
-                    </li>
-                    <li class = "dropdown">
-                        <a href = "#" class = "dropdown-toggle" data-toggle = "dropdown"> Virtuoso <b class = "caret"></b></a>
-                        <ul class = "dropdown-menu">
-                                <li><a href = "#">Luxury Specialist Program</a></li>
-                        </ul>
-                    </li>
                     
 
             <div class="navbar-right dropdown">
@@ -104,6 +74,11 @@
                         <a class = "droptext" href="#about">bbee</a>
                     </li>
 
+
+                    <li class="page-scroll">
+                        <a class = "buttontext" href="#contact">Contact</a>
+                    </li> 
+
                 </ul>
 
 
@@ -118,14 +93,23 @@
         <div class="intro-body">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-8 col-md-offset-2 introduction">
+                    <div class="col-md-8 col-md-offset-2">
                         <h1 class="brand-heading">US1 Travel</h1>
                         <p class="intro-text">travel travel travel travel travel travel travel travel travel.</p>
+                        <div class="page-scroll">
+                            <a href="#about" class="btn btn-circle">
+                                <i class="fa fa-plane"></i> 
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
+
+
+
 
     <aside class="calling-card">
 
@@ -133,9 +117,24 @@
         (310) 582-0099 <br />
         1821 Wilshire Blvd, CA 90403 <br />
         Office Hours 9am - 5pm PST</p>
+
         
     </aside>
-    
+
+<!--
+    <div id="map"></div>
+
+    <!-- Core JavaScript Files -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+    <!-- Google Maps API Key - You will need to use your own API key to use the map feature -->
+bkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/grayscale.js"></script>
+
 </body>
 
 </html>
