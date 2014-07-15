@@ -101,9 +101,15 @@ a:focus {
 
 @media(min-width:767px) {
     .navbar {
+<<<<<<< HEAD
         padding: 20px 0;
         border-bottom: 0;
         letter-spacing: 1px;
+=======
+        padding: 15px 0px 0px 0px; /* 20x creates 20 pixels of space from the top */ 
+        border-bottom: 0; /* the zero gets rid of a small border line that would appear at the bottom of the div */
+        letter-spacing: 1px; /* Spacing between letters */
+>>>>>>> parent of 82e7047... Everything is positioned but drop downs don't work
         background: 0 0;
         -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
         -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
