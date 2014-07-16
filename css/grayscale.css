@@ -55,7 +55,7 @@ a:focus {
     font-weight: 400;
 }
 
-.navbar { /* Changes text of the navbar */
+.navbar {
     margin-bottom: 0;
     border-bottom: 1px solid rgba(255,255,255,.3);
     text-transform: uppercase;
@@ -71,6 +71,7 @@ a:focus {
     outline: 0;
 }
 
+<<<<<<< HEAD
 .navbar-toggle {
     padding: 4px 6px;
     font-size: 16px;
@@ -81,23 +82,62 @@ a:focus {
 
 .navbar-home a { /* Color of navbar text */
     color: #fff;
+=======
+.navbar-custom a {
+    color: #fff; /* Navbar Text color */
+>>>>>>> parent of 55782ca... Aligned navbar.
 }
 
-.links {
-    padding: 27px 0px 0px 0px; /* 27x creates 27 pixels of space from the top */ 
+.navbar-custom .nav li a {
+    -webkit-transition: background .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out;
 }
 
-.logotitle {
-    padding: -10px 0px 0px 0px; /* 20x creates 20 pixels of space from the top */ 
+.navbar-custom .nav li a:hover,
+.navbar-custom .nav li a:focus,
+.navbar-custom .nav li.active {
+    outline: 0;
+    background-color: rgba(255,255,255,.2);
+}
+
+.navbar-toggle {
+    padding: 4px 6px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.navbar-toggle:focus,
+.navbar-toggle:active {
+    outline: 0;
 }
 
 @media(min-width:767px) {
     .navbar {
+<<<<<<< HEAD
         padding: 15px 0px 0px 0px; /* 20x creates 20 pixels of space from the topdd */ 
         border-bottom: 0; /* the zero gets rid of a small border line that would appear at the bottom of the div */
         letter-spacing: 1px; /* Spacing between letters */
         background: 0 0;
         background-color: transparent; /* changes background color of navbar */        
+=======
+        padding: 20px 0;
+        border-bottom: 0;
+        letter-spacing: 1px;
+        background: 0 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+        background-color: #000; /* background of navbar when it changes form */
+    }
+
+    .navbar-custom.top-nav-collapse {
+        border-bottom: 1px solid rgba(255,255,255,.3);
+>>>>>>> parent of 55782ca... Aligned navbar.
     }
 
     
@@ -116,7 +156,11 @@ a:focus {
 }
 
 .intro-body {
+<<<<<<< HEAD
 
+=======
+    display: table-cell;
+>>>>>>> parent of 55782ca... Aligned navbar.
     vertical-align: middle;
 }
 
